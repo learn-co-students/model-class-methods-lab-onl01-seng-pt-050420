@@ -14,4 +14,4 @@ describe Classification do
       expect(Classification.longest.pluck(:name)).to eq(classifications)
     end
   end
-end
+end 
